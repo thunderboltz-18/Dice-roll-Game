@@ -8,7 +8,7 @@ image1.setAttribute("src", randomImageSource); // Fixed syntax for setAttribute
 
 var randomNumber2= Math.floor(Math.random() * 6) + 1;
 
-var randomImageSource2= "images/" + randomNumber2+".png"; // Fixed variable name
+var randomImageSource2= "images/Dice" + randomNumber2+".png"; // Fixed variable name
 
 document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2); // Fixed syntax for setAttribute
 
