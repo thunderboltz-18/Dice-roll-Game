@@ -1,8 +1,4 @@
-// var randomNumber1=Math.floor(Math.random()*6)+1;
-// var randonDiceImages="dice"+randomNumber1+".png";
-// var randomImageSource="images/"+randomDiceImages;
-// var image1 =document.querySelectorAll("img")[0];
-// image1.setAttribute("src","randomImageSource");
+                                             
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImages = "dice" + randomNumber1 + ".png"; // Fixed variable name
@@ -12,7 +8,7 @@ image1.setAttribute("src", randomImageSource); // Fixed syntax for setAttribute
 
 var randomNumber2= Math.floor(Math.random() * 6) + 1;
 
-var randomImageSource2= "images/Dice" + randomNumber2+".png"; // Fixed variable name
+var randomImageSource2= "images/" + randomNumber2+".png"; // Fixed variable name
 
 document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2); // Fixed syntax for setAttribute
 
